@@ -8,4 +8,4 @@ eureka:
     service-url: 
       defaultZone: http://192.168.37.131:8069/eureka
 gril:
-  names: zhangxing
+  names: zhangxing 1
