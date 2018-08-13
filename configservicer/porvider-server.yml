@@ -1,0 +1,23 @@
+server:
+  port: ${SERVER_PORT}
+spring:   
+  application:
+    name: porivder-server
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://192.168.37.131:8066/eureka,http://192.168.37.131:8067/eureka,http://192.168.37.131:8068/eureka
+  instance:
+    hostname: 192.168.37.131 
+    instance-id: ${eureka.instance.hostname}:${server.port}
+
+swagger:
+  name: ZX   
+  url: ZXCodeLab    
+  email: 2275551463@live.com   
+  title:  manger-server    
+  license:  apach 2.0
+  licenseUrl:  www.whsxt.com
+  version:  1.0
+
+  
